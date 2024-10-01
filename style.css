@@ -1,0 +1,26 @@
+.box{
+    background-color: #131313;
+    width: 1000px;
+    height: 600px;
+    color: white; 
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.boxx{
+    background-color: red;
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 15px;
+    position: relative;
+    left: -200px;
+    top: 250px;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+}
+
