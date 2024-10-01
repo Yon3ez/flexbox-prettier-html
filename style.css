@@ -1,26 +1,77 @@
-.box{
-    background-color: #131313;
-    width: 1000px;
-    height: 600px;
-    color: white; 
-    border-radius: 15px;
-    padding: 10px;
-    margin: 5px;
+body {
+	margin: 0;
+	background-color: #ffb3ff;
+	color: white;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 700px;
+}
+.content {
+	display: flex;
+	background-color: #1a1a1a;
+	border-radius: 10px;
+}
+.text-section {
+	padding: 20px;
+	flex: 1;
+}
+.text-section h1 {
+	font-size: 24px;
+	margin-bottom: 20px;
 }
 
-.boxx{
-    background-color: red;
-    width: 500px;
-    height: 300px;
-    padding: 10px;
-    border-radius: 15px;
-    position: relative;
-    left: -200px;
-    top: 250px;
+.text-section .tldr {
+	background-color: #333;
+	padding: 20px;
+	border-radius: 12px;
+	border-left: 10px solid #ea00ff;
 }
 
-.box{
-    display: flex;
-    flex-direction: row;
+.video-section iframe {
+	flex: 1;
+	border-radius: 25px;
+	padding: 15px;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.buttons :nth-child(1) {
+	background: #5fff4921;
+	background-color: #51dd6b;
+	border: 1px solid #51dd6b;
+	border-radius: 5px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.buttons :nth-child(2) {
+	background: #5fff4921;
+	background-color: #51dd6b;
+	border: 1px solid #51dd6b;
+	border-radius: 5px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.buttons :nth-child(3) {
+	background: #5fff4921;
+	background-color: #51dd6b;
+	border: 1px solid #51dd6b;
+	border-radius: 5px;
+	cursor: pointer;
+	text-align: center;
+}
+
+span {
+	color: #ea00ff;
+	font-weight: 700px;
+	font-weight: bold;
 }
 
